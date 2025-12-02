@@ -28,8 +28,7 @@ foreach ($lines as $range)
                 continue;
             }
         }
-
-
+        
         // Part 2 extension
         $split_number1 = str_split($current);
         $split_number2 = str_split($current, 2);
@@ -43,9 +42,6 @@ foreach ($lines as $range)
 
             $current++;
         }
-
-
-
 
         $current++;
     }
